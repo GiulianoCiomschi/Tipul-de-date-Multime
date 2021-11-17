@@ -1,0 +1,6 @@
+A=set(map(str,input("Dati literele mari pentru multimea A :").split()))
+B=set(map(str,input("Dati literele mari pentru multimea B :").split()))
+print('Reuniunea multimilor este :',A.union(B))
+print('Intersectia multimilor este :',A.intersection(B))
+print('Diferenta multimilor A/B este :',A.difference(B))
+print('Intersectia multimilor B/A este :',B.difference(A))
