@@ -1,0 +1,5 @@
+import itertools
+multime={1,2,3,4}
+for s in range(len(multime)):
+    submultime=itertools.combinations(multime, s+1)
+    print(set(submultime))
