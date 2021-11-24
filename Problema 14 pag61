@@ -1,0 +1,6 @@
+a=set(input("Dati elementele sirului a: "))
+b=set(input("Dati elementele sirului b: "))
+print("Caractere ce se intilnesc cel putin o singura data sunt:", a.union(b))
+print("Intersectia sirurilor este:", a.intersection(b))
+print("Apar in sirul a si nu apar in sirul b:", a.difference(b))
+print("Apar in sirul b si nu apar in sirul a:", b.difference(a))
